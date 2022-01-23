@@ -1,0 +1,142 @@
+body {
+    background-image: url(./images/background.png);
+    background-color: LavenderBlush;
+    justify-content: center;
+    zoom: 75%;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-weight: bold;
+    color: white;
+    font-size: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.instructions {
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.rps-img {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.img {
+    display: flex;
+    height: 200px;
+    width: 200px; 
+    border-radius: 10px;
+    filter: drop-shadow(5px 5px 5px);
+    cursor: pointer;
+}
+
+.img:hover {
+    opacity: 0.9;
+}
+
+#score-intro {
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 2px black,0 0 0.2em, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+#score-sheet {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+#player-image, #computer-image {
+    display: flex;
+    height: 250px;
+    width: 250px;
+}
+
+#flower-gif {
+    display: flex;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    visibility: hidden;
+} 
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
+#rounds-info {
+    height :60px;
+    display: flex;
+    justify-content: end;
+    gap:50px;
+    margin-right: 400px;
+}
+
+#tie-display, #win-display, #loss-display {
+    height: 50px;
+    width: 200px;
+    display: flex;
+    font-family: 'Segoe UI';
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#current-display{
+    height: 50px;
+    width: 400px;
+    display: flex;
+    font-family: 'Segoe UI';
+    font-size: 25px;
+    font-weight: bold; 
+}
+
+#button {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 400px;
+    margin-top: 10px;
+    gap: 300px;
+}
+
+#show-final-result {
+    height: 50px;
+    width: 300px;
+    display: flex;
+    font-family: 'Segoe UI';
+    font-size: 25px;
+    font-weight: bold; 
+}
+
+#new-game {
+    height: 50px;
+    width: 150px;
+    font: bold;
+    font-size: 20px;
+    border-radius: 10%;
+    cursor: pointer;
+    background-color: pink;
+    color: rgb(134, 19, 241);
+    visibility: hidden;
+}

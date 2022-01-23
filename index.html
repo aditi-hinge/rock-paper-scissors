@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="intro">ROCK PAPER SCISSORS</div>
+    <div class= "rps-img">
+        <img class="img" id="rock" src="./images/rock.jpg" alt="image rock">
+        <img class="img" id="paper" src="./images/paper.png" alt="image paper">
+        <img class="img" id="scissor" src="./images/scissors.jpg" alt="image scissors">
+    </div>
+    <div id="score-intro">Beat the computer in 5 rounds! Click to play</div>
+    <div id="score-sheet">
+        <div id = player-image>
+            <div id="player-image-text"></div>
+        </div>
+        <img id="flower-gif" src="./images/flower.gif" alt="flower gif">
+        <div id = computer-image>
+            <div id="computer-image-text"></div>
+        </div>
+    </div>
+    <div id="rounds-info">
+        <div id="current-display"></div>
+        <div id="tie-display"></div>
+        <div id="win-display"></div>
+        <div id="loss-display"></div>
+    </div>
+    <div id="button">
+        <div id="show-final-result"></div>
+        <button id="new-game">RESET GAME</button>
+    </div>
+
+<script src="./rps.js"></script>
+
+</body>
+</html>
