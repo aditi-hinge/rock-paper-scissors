@@ -140,8 +140,8 @@ body {
     font-size: 20px;
     border-radius: 10%;
     cursor: pointer;
-    background-color: pink;
-    color: rgb(134, 19, 241);
+    background-color: rgb(10, 4, 37);
+    color: rgb(255, 255, 255);
     visibility: hidden;
     margin-right: 150px;
     margin-bottom: 10px;
