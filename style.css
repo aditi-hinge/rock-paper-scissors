@@ -2,8 +2,10 @@ body {
     background-image: url(./images/background.gif);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: LavenderBlush;
+    background-color: rgb(43, 17, 116);
     justify-content: center;
+    width:100%;
+    height: 100%;
 }
 
 .intro {
