@@ -2,7 +2,7 @@ body {
     background-image: url(./images/background.png);
     background-color: LavenderBlush;
     justify-content: center;
-    zoom: 75%;
+    //zoom: 75%;
 }
 
 .intro {
@@ -139,4 +139,5 @@ body {
     background-color: pink;
     color: rgb(134, 19, 241);
     visibility: hidden;
+    margin-right: 300px;
 }
