@@ -86,13 +86,13 @@ body {
     justify-content: center;
     gap:50px;
     margin-left: 100px;
+    font-family: monospace;
 }
 
 #tie-display, #win-display, #loss-display {
     height: 50px;
     width: 200px;
     display: flex;
-    font-family: 'Segoe UI';
     font-size: 25px;
     font-weight: bold;
     color: white;
@@ -102,7 +102,6 @@ body {
     height: 50px;
     width: 400px;
     display: flex;
-    font-family: 'Segoe UI';
     font-size: 25px;
     font-weight: bold; 
     color: white;
