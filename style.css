@@ -94,7 +94,7 @@ body {
     display: flex;
     justify-content: center;
     gap:50px;
-    margin-right: 400px;
+    margin-left: 100px;
 }
 
 #tie-display, #win-display, #loss-display {
