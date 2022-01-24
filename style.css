@@ -139,5 +139,6 @@ body {
     background-color: pink;
     color: rgb(134, 19, 241);
     visibility: hidden;
-    margin-right: 300px;
+    margin-right: 150px;
+    margin-bottom: 10px;
 }
