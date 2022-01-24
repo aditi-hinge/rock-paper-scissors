@@ -10,11 +10,11 @@ Please enjoy the game and let me know your feedback :)
 
 
 Picture Credits:
->Background image: www.teahub.io 
->Rock: NASA
->Paper: Konstantin Roshchin on www.behance.net
->Scissors:  crankbunny on flickr scissors
->Flower gif: Rubaiya @rubaiya_sharif
+-Background image: www.teahub.io 
+-Rock: NASA
+-Paper: Konstantin Roshchin on www.behance.net
+-Scissors:  crankbunny on flickr scissors
+-Flower gif: Rubaiya @rubaiya_sharif
 
 
 # rock-paper-scissors console:
