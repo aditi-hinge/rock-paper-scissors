@@ -1,3 +1,5 @@
+Live version: https://aditi-hinge.github.io/rock-paper-scissors/
+
 24/01/2022
 Finally done with this project after spending more than a week! I learnt a lot through this project, could apply everything that I have learnt till now on this.
 
