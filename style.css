@@ -75,7 +75,7 @@ body {
     width: 250px;
 }
 
-#flower-gif {
+#space {
     display: flex;
     height: 250px;
     width: 250px;
@@ -92,7 +92,7 @@ body {
 #rounds-info {
     height :60px;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     gap:50px;
     margin-right: 400px;
 }
