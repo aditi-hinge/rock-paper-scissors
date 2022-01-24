@@ -1,5 +1,7 @@
 body {
-    background-image: url(./images/new-background.gif);
+    background-image: url(./images/background.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: LavenderBlush;
     justify-content: center;
 }
