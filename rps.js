@@ -1,4 +1,3 @@
-let flowerGif = document.getElementById("flower-gif");
 let showFinalResult = document.getElementById("show-final-result");
 let currentDisplay = document.getElementById("current-display");
 let tieDisplay = document.getElementById("tie-display");
@@ -20,7 +19,6 @@ let playerChoice = () => {
       playerSelection = "rock";
       document.getElementById("rock").classList.add("playing");
       setTimeout(() =>{document.getElementById("rock").classList.remove("playing");}, 200);
-      flowerGif.style.visibility = "visible";
       playerImageRock();
       computerChoice();
     });
@@ -28,7 +26,6 @@ let playerChoice = () => {
       playerSelection = "paper";
       document.getElementById("paper").classList.add("playing");
       setTimeout(() =>{document.getElementById("paper").classList.remove("playing");}, 200);
-      flowerGif.style.visibility = "visible";
       playerImagePaper();
       computerChoice();
     });
@@ -36,7 +33,6 @@ let playerChoice = () => {
       playerSelection = "scissor";
       document.getElementById("scissor").classList.add("playing");
       setTimeout(() =>{document.getElementById("scissor").classList.remove("playing");}, 200);
-      flowerGif.style.visibility = "visible";
       playerImageScissor();
       computerChoice();
     });
