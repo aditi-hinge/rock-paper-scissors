@@ -100,6 +100,7 @@ body {
     font-family: 'Segoe UI';
     font-size: 25px;
     font-weight: bold;
+    color: white;
 }
 
 #current-display{
@@ -109,6 +110,7 @@ body {
     font-family: 'Segoe UI';
     font-size: 25px;
     font-weight: bold; 
+    color: white;
 }
 
 #button {
@@ -126,6 +128,7 @@ body {
     font-family: 'Segoe UI';
     font-size: 25px;
     font-weight: bold; 
+    color: white;
 }
 
 #new-game {
