@@ -1,5 +1,5 @@
 body {
-    background-image: url(./images/space-background.gif);
+    background-image: url(./images/space- background.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: LavenderBlush;
@@ -39,7 +39,7 @@ body {
     height: 200px;
     width: 200px; 
     border-radius: 10px;
-    filter: drop-shadow(5px 5px 5px);
+    filter: drop-shadow(4px 4px 4px rgb(199, 193, 193));
     cursor: pointer;
 }
 
