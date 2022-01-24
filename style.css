@@ -65,7 +65,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 520px;
+    gap: 190px;
 }
 
 #player-image, #computer-image {
@@ -81,7 +81,6 @@ body {
 }
 
 #rounds-info {
-    height :60px;
     display: flex;
     justify-content: center;
     gap:50px;
@@ -107,13 +106,6 @@ body {
     color: white;
 }
 
-#button {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 400px;
-    margin-top: 10px;
-}
-
 #show-final-result {
     height: 50px;
     width: 300px;
@@ -127,13 +119,11 @@ body {
 #new-game {
     height: 50px;
     width: 150px;
-    font: bold;
     font-size: 20px;
     border-radius: 10%;
     cursor: pointer;
     background-color: rgb(10, 4, 37);
     color: rgb(255, 255, 255);
     visibility: hidden;
-    margin-right: 150px;
     margin-bottom: 10px;
 }
